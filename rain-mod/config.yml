@@ -1,0 +1,8 @@
+#Data added globally
+metadata :
+  author : 'Mike McFarland'
+prompts :
+  - 'name'
+  - 'description'
+cmds :
+  - 'npm install --save-dev gulp'

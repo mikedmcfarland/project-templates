@@ -1,0 +1,13 @@
+* {{name}}
+
+{{description}}
+
+** run tests
+   #+begin_example
+      gulp test
+   #+end_example
+
+** watch directory for changes
+   #+begin_example
+     gulp watch
+   #+end_example
