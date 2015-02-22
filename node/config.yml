@@ -1,12 +1,17 @@
 #Data added globally
 metadata :
   author : 'Mike McFarland'
+  github : 'http://github.com/mikedmcfarland'
 prompts :
   - 'name'
   - key : 'license'
     default : 'ISC'
   - 'description'
 cmds :
+  - 'mv lib/module.js lib/{{name}}.js'
+  - 'mv test/moduleSpec.js test/{{name}}Spec.js'
   - 'git init'
-  - 'npm install --save-dev 6to5'
+  - 'git remote add origin {{github}}/{{name}}.git'
+  - 'git add -A'
+  - 'npm install'
   - 'npm install --save-dev gulp'

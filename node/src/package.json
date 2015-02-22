@@ -2,14 +2,18 @@
   "name": "{{name}}",
   "version": "0.0.1",
   "description": "{{description}}",
-  "main": "dist/index.js",
+  "main": "dist/{{name}}.js",
   "scripts": {
     "prepublish": "gulp build",
-    "build": "gulp",
+    "build": "gulp build",
     "test": "gulp test"
   },
   "author": "{{author}}",
+  "repository" : {
+    "type" : "git",
+    "url" : "{{github}}/{{name}}.git"
+  },
   "devDependencies": {
-    "engulped": "git://github.com/mikedmcfarland/engulped#6to5"
+    "engulped": "git://github.com/mikedmcfarland/engulped#master"
   }
 }
