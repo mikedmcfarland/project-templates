@@ -2,7 +2,7 @@
   "name": "{{name}}",
   "version": "0.0.1",
   "description": "{{description}}",
-  "main": "dist/index.js",
+  "main": "dist/{{name}}.js",
   "scripts": {
     "prepublish": "gulp build",
     "build": "gulp build",
@@ -10,6 +10,6 @@
   },
   "author": "{{author}}",
   "devDependencies": {
-    "engulped": "git://github.com/mikedmcfarland/engulped#6to5"
+    "engulped": "git://github.com/mikedmcfarland/engulped#master"
   }
 }
