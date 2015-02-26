@@ -6,3 +6,4 @@ prompts :
   - 'description'
 cmds :
   - 'npm install --save-dev gulp'
+  - 'npm install'

@@ -8,10 +8,8 @@ prompts :
     default : 'ISC'
   - 'description'
 cmds :
-  - 'mv lib/module.js lib/{{name}}.js'
-  - 'mv test/moduleSpec.js test/{{name}}Spec.js'
   - 'git init'
   - 'git remote add origin {{github}}/{{name}}.git'
   - 'git add -A'
-  - 'npm install'
   - 'npm install --save-dev gulp'
+  - 'npm install'
